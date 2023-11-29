@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    width: inherit;
+    height: inherit;
+    background-image: url("media/cactus.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+  
+  }
+  section {
+    width: 400px;
+    background-color: #788e4d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: Calibri;
+    border-radius: 25px;
+  
+    box-shadow: 7px 13px 37px #000;
+  
+    color: #fbf8f8;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Calibri;
+    color: #efe7e4;
+  }
+  label {
+    font-size: 19px;
+    font-family: Calibri;
+  }
+  .controls {
+    width: 100%;
+    background-color: #e5f8d6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #5d6e3b;
+    font-family: Calibri;
+    font-size: 17px;
+    color: #424242;
+  }
+  
+  p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+  
+  }
+  a {
+    color: #070707c1;
+    text-decoration: none;
+    background-color: #788e4d;
+  }
+  a:hover {
+    color: beige;
+    text-decoration: underline;
+  }
+  .botons {
+    width: 100%;
+    background-color: #5d6e3b;
+    border: none;
+    padding: 12px;
+    color: #aed581;
+    margin: 16px 0;
+    font-size: 18px;
+  }
+  .botons:hover {
+    background-color: #aed581;
+    color: #5d6e3b;
+  }
+  

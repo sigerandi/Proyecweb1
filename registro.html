@@ -8,7 +8,7 @@
     <meta name="description" content="Pagina de registro de un club de plantas">
     <meta name="keywords" content="HTML, Basico, Curso, UNAM, ICO">
     <meta name="author" content="Erandi Soublett">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosreg.css">
     <title>Regitro club de plantas</title>
 </head>
 
@@ -36,17 +36,58 @@
                 </div>
 
                 <div>
-                    <label for="telefono"> Ingrese su número telefónico  </label>
-                    <input class="controls" type="numero" name="telefono" required placeholder="Ingrese su número teléfónico" >
-                   </div>
+                    <label for="interes"> Selecciona tu Interes  </label>
+                    <select name="interes" id="">
+                        <option value="selecciona-tu-interes">Selecciona tu interes</option>
+                        <option value="Plantas"> Pantas</option>
+                        <option value="Maceta">Maceta</option>
+                        <option value="Blog">Blog</option>
+                    </select>
+                    
 
-                   
+                    <div class="boton-modal">
+                        
+                        <label for="btn-modal">
+                        Terminos y condiciones 
+                        </label>
+                    </div>
+                    <input type="checkbox" id="btn-modal">
+                    <div class="container-modal">
+                        <div class="content-modal">
+                            <h2>Terminos y condiciones</h2>
+                            <ul>
+                                <li> Informacion general </li>
+                            <li>El presente documento (así como otros documentos que aquí se mencionen) establece las condiciones por las que se rige el uso de www.elclubdelasplantas.com (en adelante, el “Sitio Web”) y la compra o adquisición de productos y/o servicios en el mismo (en adelante, Condiciones), cualquiera que sea el aplicativo, medio digital, soporte o dispositivo a través del que se pueda acceder.
+                                    Le rogamos que lea atentamente las presentes Condiciones, al igual que nuestro Aviso Legal, y nuestra Política de Privacidad y Cookies, antes de acceder, navegar y/o usar este Sitio Web. Al utilizar este Sitio Web o al hacer y/o solicitar la adquisición de un producto y/o servicio a través del mismo, usted consiente quedar vinculado por estas Condiciones y por nuestro Aviso Legal y Política de Privacidad y Cookies, por lo que si no está de acuerdo con todo ello, no debe usar este Sitio Web.
+                                </li>
+                            
+                                <li> Uso del sitio web </li>
+                            <li>Las páginas de este Sitio Web son de acceso público, libre y gratuito.
+                                    El usuario asume su responsabilidad de un uso correcto del Sitio Web. Esta responsabilidad se extiende a:
+                                    Hacer uso de este Sitio Web únicamente para realizar consultas o compras legalmente válidas.
+                                    No realizar ninguna compra falsa o fraudulenta.
+                                </li>
+                            </li>
+                                <li>Sus datos y visitas al sitio web
+                                <li>
+                                    La información o datos personales que nos facilites serán tratados con arreglo a lo establecido en la Política de Privacidad y Cookies. Al hacer uso de este Sitio Web consiente el tratamiento de dicha información y datos y declara que toda la información o datos que nos facilite son veraces y se corresponden con la realidad.
+                                </li>
+                            </li>
+                            </ul>
+                            <div class="btn-cerrar">
+                                <label for="btn-modal"> Cerrar</label>
+                            </div>
+                        </div>
+                        <label for="btn-modal" class="cerrar-modal"></label>
+                    </div>
                     
 
                 </div>
+                <a href="tablausuarios.html">
 
 
-                <input class= "botons" type="submit" value="Registrar">
+                <input class= "botons" type="submit" value="Registrar"> </a>
+
                 <p><a href="tablausuarios.html">¿Ya tengo cuenta?</a></p>
 
         </from>

@@ -1,23 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="media/logo.avif" type="image/x-icon">
-    <meta name="description" content="Pagina de registro de un club de plantas">
-    <meta name="keywords" content="HTML, Basico, Curso, UNAM, ICO">
-    <meta name="author" content="Erandi Soublett">
-    <link rel="stylesheet" href="estilosreg.css">
-    <title>Error registro club de plantas</title>
-</head>
-<body>
-     <section class="form-register">
-        <h3> Lo sentimos error </h3>
-        <h3> Intente mas tarde </h3>
-        <p> <a href= "login.html".html"> Vea sus datos </a> </p>
-        
-
-     </section>
-    
-</body>
-</html>
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: inherit;
+    height: inherit;
+    background-image: url(media/clubdeplantas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  section {
+    width: 600px;
+    background-color: #788e4d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Calibri;
+    border-radius: 25px;
+  
+    color: #fbf8f8;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Calibri;
+    color: #efe7e4;
+  }
+  
+  p {
+      height: 40px;
+      text-align: center;
+      font-size: 20px;
+    }
+    a {
+      color: #424242;
+      text-decoration: none;
+    }
+    a:hover {
+      color: beige;
+      text-decoration: underline;
+    }

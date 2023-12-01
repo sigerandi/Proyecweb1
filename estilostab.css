@@ -1,85 +1,85 @@
 * {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  body {
-    width: inherit;
-    height: inherit;
-    background-image: url("media/cactus.jpg");
-   background-size: cover;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-  
-  }
-  section {
-    margin: auto;
-    margin-top: 80px;
-    font-family: Calibri;
-   
-  }
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: inherit;
+  height: inherit;
+  background-image: url("media/cactus.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+
+}
+section {
+  margin: auto;
+  margin-top: 80px;
+  font-family: Calibri;
  
-  h1 {
-    font-size: 25px;
-    margin-bottom: 5px;
-    text-align: center;
-    font-family: Calibri;
-    color:#424242;
-  
-  }
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: Calibri;
+  color:#424242;
+
+}
 table{
-    border-collapse: collapse;
-    cursor: pointer;
-    margin: 70px auto 0px auto;
-    font-size: 19px;
+  border-collapse: collapse;
+  cursor: pointer;
+  margin: 70px auto 0px auto;
+  font-size: 19px;
 }
 td,th{
-    padding: 10px;
-   
+  padding: 10px;
+ 
 }
 tr{
-    transition: all ease 300ms  ;
-    border: solid 1px #81935f;
-    
+  transition: all ease 300ms  ;
+  border: solid 1px #81935f;
+  
 }
 tr:hover{
-    background-color: #81935f;
-    color: black;
+  background-color: #81935f;
+  color: black;
 }
 tr:active{
-    background-color: #81935f;
-    color:  #424242;
-    
+  background-color: #81935f;
+  color:  #424242;
+  
 }
 table thead{
-    background-color:#81935f; 
-    color: rgb(34, 33, 32);
-    border: 1px solid #81935f;
+  background-color:#81935f; 
+  color: rgb(34, 33, 32);
+  border: 1px solid #81935f;
 }
 table tbody{
-    background-color: #c2e47f;
-   
+  background-color: #c2e47f;
+ 
 }
 .contenedor{
-    
-  align-items: center;
-    font-family: Calibri;
-    
+  
+align-items: center;
+  font-family: Calibri;
+  
 }
 
 .botons {
-   
-    background-color: #5d6e3b;
-    border: none;
-    padding: 5px;
-    color: #aed581;
-    font-size: 18px;
-    width: 100px;
-    height: 25px;
-    margin: 16px 30px;
  
-  }
-  .botons:hover {
-    background-color: #aed581;
-    color: #5d6e3b;
-  }
+  background-color: #5d6e3b;
+  border: none;
+  padding: 5px;
+  color: #aed581;
+  font-size: 18px;
+  width: 100px;
+  height: 25px;
+  margin: 16px 30px;
+
+}
+.botons:hover {
+  background-color: #aed581;
+  color: #5d6e3b;
+}

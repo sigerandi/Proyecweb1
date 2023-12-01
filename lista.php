@@ -76,9 +76,7 @@
     else{
         echo "No hay registros";
     }
-
+?>
 
 </body>
 </html>
-';
-?>

@@ -50,7 +50,25 @@
     <h1>Registro de usuarios</h1>
     ';
 
+        echo'
+        <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Interes</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>';
 
+        while ($row = $result->fetch_assoc()){
+            echo "<tr>";
+            echo "<td>" . $row['nombre_completo'] . "</td>";
+            echo "<td>" . $row['correo'] . "</td>";
+            echo "<td>" . $row['interes'] . "</td>";
+            echo "</tr>";
+        }
 
     echo'</table>
     </section>';
